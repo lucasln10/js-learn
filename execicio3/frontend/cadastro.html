@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="./js/cadastro.js"></script>
+</head>
+<body>
+    <nav>
+        <ul class="navigation">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h1 class="main-title">
+                Formulário de Cadastro
+            </h1>
+        </div>
+    </header>
+    <section class="content">
+        <form action="http://localhost:3000/users" method="post" class="form-cadastro">
+            <label for="name">Nome: <input type="text" id="name" name="name" required></label>
+
+            <label for="email">Email: <input type="email" id="email" name="email" required></label>
+
+            <label for="password">Senha: <input type="password" id="senha" name="senha" required></label>
+
+            <label for="idade">Idade: <input type="number" id="idade" name="idade" required></label>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <span>
+                Oficial Page - Todos os direitos reservados.
+            </span>
+        </div>
+    </footer>
+</body>
+</html>

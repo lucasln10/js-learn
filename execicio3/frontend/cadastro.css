@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 15px;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navigation {
+    background-color: blueviolet;
+    padding: 10px;
+    color: white;
+}
+
+.header-content {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border: 2px solid #080808;
+}
+
