@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cadastro.css">
     <script src="./js/cadastro.js"></script>
 </head>
 <body>
@@ -21,12 +21,14 @@
         </div>
     </header>
     <section class="content">
-        <form action="http://localhost:3000/users" method="post" class="form-cadastro">
-            <label for="name">Nome: <input type="text" id="name" name="name" required></label>
+        <form class="form-cadastro">
+            <label for="id">ID: <input type="number" id="id" name="id" required></label>
+
+            <label for="nome">Nome: <input type="text" id="nome" name="nome" required></label>
 
             <label for="email">Email: <input type="email" id="email" name="email" required></label>
 
-            <label for="password">Senha: <input type="password" id="senha" name="senha" required></label>
+            <label for="senha">Senha: <input type="password" id="senha" name="senha" required></label>
 
             <label for="idade">Idade: <input type="number" id="idade" name="idade" required></label>
 
