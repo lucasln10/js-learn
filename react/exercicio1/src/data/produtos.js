@@ -5,6 +5,4 @@ const getProdutos = async () => {
     return dados;
 }
 
-export default (
-    getProdutos
-)
+export default getProdutos;
